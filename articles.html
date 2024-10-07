@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="سلام رفقا!
+    محمدعلی موسی پور هستم.طراح وب و رتبه 2 کنکور سراسری ریاضی فیزیک سال 1403.دانشجوی دانشگاه صنعتی شریف هستم و قراره بهتون آموزش بدم چطور مثل خودم فیزیک کنکورتون رو 96 درصد بزنید">
+    <meta name="keywords" content="">
+    <title>فیزیک کنکور | محمدعلی موسی پور
+    </title>
+    <link rel="stylesheet" href="./articles.css">
+    <link rel="icon" href="./images/Favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onscroll="go_top()" id="top">
+    <header class="header">
+        <section class="header-top">
+           <div class="container">
+            <nav class="nav">
+                <div class="icon-top">
+                    <img src="./images/Favicon.png" alt="icon" class="icon-top__loggo">
+                </div>
+                <ul class="menu">
+                    <div class="fixed">
+                        <img src="./images/Favicon.png" alt="icon" class="fixed__loggo">
+                        <h3 class="fixed__title">
+                            محمدعلی موسی پور|فیزیک کنکور
+                        </h3>
+                        <span class="header__icon--alert"><i class="fa fa-times" id="times"></i></span>
+                    </div>
+                    <li class="menu__item"> <a href="./index.html" class="menu__link">خانه<span class="icon"><i class="fa fa-house"></i></span></a></li>
+                    <li class="menu__item"> <a href="./articles.html" class="menu__link">جزوه ها<span class="icon"><i class="fa fa-book"></i></span></a></li>
+                    <li class="menu__item"> <a href="./news.html" class="menu__link">اخبار و دوره ها<span class="icon"><i class="fa fa-envelope"></i></span></a></li>
+                    <li class="menu__item"> <a href="#comunication" class="menu__link">ارتباط با ما<span class="icon"><i class="fa fa-message"></i></span></a></li>
+                    <li class="menu__item" id="dark-span"> <a href="#" class="menu__link">تغییر تم<span class="icon"><i class="fa fa-moon" id="dark-icon"></i></span></a></li>
+                    <li class="menu__item"> <a href="#search" class="menu__link">جست و جو<span class="icon"><i class="fa fa-magnifying-glass"></i></span></a></li>
+                  
+                </ul>
+                <span class="header__icon"><i class="fa fa-bars" id="bars"></i></span>
+            </nav>
+           
+            
+           </div>
+        </section>
+    </header>
+    <main class="main">
+        <section class="guide">
+          <div class="container">
+            <ul class="guide__menu">
+                <li class="guide__menu__item" onclick="article ( 0)">
+                    فیزیک دهم-فصل اول
+                </li>
+                <li class="guide__menu__item" onclick="article ( 1)">
+                    فیزیک دهم-فصل دوم
+                </li>
+                <li class="guide__menu__item"  onclick="article ( 2)">
+                   فیزیک دهم-فصل سوم
+                </li>
+                <li class="guide__menu__item" onclick="article ( 3)">
+                   فیزیک دهم-فصل چهارم
+                </li>
+                <li class="guide__menu__item" onclick="article ( 4)">
+                  فیزیک دهم-فصل پنجم
+                </li>
+                <li class="guide__menu__item" onclick="article ( 5)">
+                   فیزیک یازدهم-فصل اول
+                </li>
+                <li class="guide__menu__item" onclick="article ( 6)">
+                  فیزیک یازدهم-فصل دوم
+                </li>
+                <li class="guide__menu__item" onclick="article ( 7)">
+                  فیزیک یازدهم-فصل سوم
+                </li>
+                <li class="guide__menu__item" onclick="article ( 8)">
+                   فیزیک یازدهم-فصل چهارم
+                </li>
+                <li class="guide__menu__item" onclick="article ( 9)">
+                     فیزیک دوازدهم-فصل اول
+                </li>
+                <li class="guide__menu__item" onclick="article ( 10)">
+                    فیزیک دوازدهم-فصل دوم
+                </li>
+                <li class="guide__menu__item" onclick="article ( 11)">
+                     فیزیک دوازدهم-فصل سوم
+                </li>
+                <li class="guide__menu__item" onclick="article ( 12)">
+                     فیزیک دوازدهم-فصل چهارم
+                </li>
+                <li class="guide__menu__item" onclick="article ( 13)">
+                     فیزیک دوازدهم-فصل پنجم
+                </li>
+               
+                <!-- <li class="guide__menu__item">
+    
+                </li>
+                <li class="guide__menu__item">
+    
+                </li> -->
+              </ul>
+          </div>
+        </section>
+        <section class="search" id="search">
+            <div class="container">
+               <div class="box">
+                  <input type="text" class="search-box" placeholder="جستجو در مقالات">
+                  <div class="search-btn">
+                    <span class="search-icon"><i class="fa fa-magnifying-glass"></i></span>
+                  </div>
+                  
+               </div>
+             
+            </div>
+        </section>
+       
+        <section class="content">
+            <div class="container">
+                <div class="wrapper-article">
+                    <div class="result">
+                    
+                    </div>
+                    <h1 class="main-title">
+                        مقالات آموزشی و جزوات
+                    </h1>
+                    <p class="main-text">
+                        خب رسیدیم به کار اصلی خودمون یعنی فیزیک!برای مطالعه جزوه ها اول از منوی جزوه ها که بالای همین صفحه هست جزوه مدنظرتون رو انتخاب کنید و بعد با خیال راحت به مطالعه اون بپردازید.بعدش هر سوالی داشتید از طریق فرمی که پایین همین صفحه هست از ما بپرسید.اینم اضافه کنم که جزوه ها به منظور عدم ایجاد ترس و وحشت در دانش آموزان!؛کاملا مختصر و مفید هستن.یه جورایی مناسب جمع بندی،مرور نکات کلی و کسب اعتماد به نفس و تسلط بیشتر...پس حتما قبل از امتحانات نهایی،آزمون های آزمایشی و کنکور سری به این صفحه بزنید.با حوصله تمامی سوالات و نظرات شما خونده میشن و بهترین پاسخ توسط تیم پشتیبانی به شما داده خواهد شد.پس برو که رفتیم...
+                    </p>
+
+                   <div class="content-wrapper">
+                    <h2 class="part-title1">
+
+                    </h2>
+                    <p class="part-text1">
+                        
+                    </p>
+                   </div>
+                    <div class="content-wrapper">
+                        <h2 class="part-title2">
+
+                        </h2>
+                        <p class="part-text2">
+    
+                        </p>
+                    </div>
+                   <div class="content-wrapper">
+                 
+                   </div>
+                </div>
+            </div>
+        </section>
+        <section class="slider-part">
+            <div class="container">
+                <div class="wrapper4">
+                    <a  class="next">&gt;</a>
+                    <a  class="preve">&lt;</a>
+                    <div class="slide slide-avtive "  id="slide0">
+                        <img src="./images/Phisic1.jpg" alt="" class="slide__img">
+                    </div>
+                    <div class="slide " id="slide1">
+                        <img src="./images/Phisic2.jpg" alt="" class="slide__img">
+                    </div>
+                    <div class="slide" id="slide2">
+                        <img src="./images/Physic.webp" alt="" class="slide__img">
+                    </div>
+                    <div class="slide" id="slide3">
+                        <img src="./images/Mine.jpg" alt="" class="slide__img">
+                    </div>
+                    <div class="slide" id="slide4">
+                        <img src="./images/Blackloggo.jpg" alt="" class="slide__img">
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+         <section class="comunication" id="comunication">
+        <div class="container">
+            <div class="wrapper3">
+                <div class="form-explaination">
+                    <h2 class="explain-title">
+                       سوالات شما
+                    </h2>
+                    <p class="explain-explain">
+                        لطفا هر سوالی یا پیشنهاد و انتقادی در مورد جزوه ای که مطالعه کردید دارید همینجا بپرسید.بچه های پشتیبانی 24 ساعته در حال خوندن سوالات خوب شما هستن و در صورت امکان بهتون پاسخ مناسب خواهند داد...
+                    </p>
+                </div>
+                <div class="form-explaination">
+                    <!--START---- FormAfzar.Com ----->
+                    <script type="text/javascript" src="https://formafzar.com/pages/formbuilder/ravesh-formbuilder.js" form-url="https://formafzar.com/form/veya8" form-style="inline" form-theme=""></script>
+                    <!--END--- FormAfzar.Com ----->
+
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+    </main> 
+    <footer class="footer">
+        <section class="footer-part">
+            <div class="container">
+               <div class="wrapper6">
+                 <div class="explainations">
+                      <img src="./images/Favicon.png" alt="" class="footer__loggo">
+                      <p class="explaination__text">
+                          یک روز آفتابی برای هرکس یه حس متفاوت ایجاد میکنه.یکی در حال تفریح و بازیه یکی درس میخونه و یکی هم فیزیک تدریس میکنه.اما برای بچه های این مجموعه هیچ چیز لذت بخش تر از سومی در یک روز آفتابی نیست...
+                      </p>
+                      <span class="heart">تقدیم به همه دانش آموزا و رفقای عزیزم<i class="fa fa-heart"></i></span>
+                 </div>
+                 <div class="massaging">
+                    <a href="tel:+989355969425" class="massaging__link">
+                         <span class="footer__icon"><i class="fa fa-phone"></i></span>
+                            09355969425
+                    </a>
+                    <a href="mailto:zxd1385zxd1385@gmail.com" class="massaging__link">
+                        <span class="footer__icon"><i class="fa fa-envelope"></i></span>
+                         zxd1385zxd1385@gmail.com
+                    </a>
+                    <a href="sms:+989355969425" class="massaging__link">
+                        <span class="footer__icon"><i class="fa fa-message"></i></span>
+                     به ما پیامک دهید
+                    </a>
+                    <!-- <a href="" class="massaging__link">
+    
+                    </a> -->
+                 </div>
+                 <div class="visite">
+                          <!-- Statistics by www.1abzar.com --->
+                          <script type="text/javascript" src="https://1abzar.ir/abzar/tools/stat/amar-v3.php?color=FFFFFF&bg=FF8F00&kc=FF8F00&kadr=1&amar=dtanjb3cenqz195dz4qjaztu3c9pie&show=1|0|1|1|0|1|1"></script><div style="display: none;" ><h3><a href="https://www.1abzar.com/abzar/stat.php">&#1570;&#1605;&#1575;&#1585;&#1711;&#1740;&#1585; &#1608;&#1576;&#1604;&#1575;&#1711;</a></h3></div>
+                         <!-- Statistics by www.1abzar.com --->
+                 </div>
+               </div> 
+                 <h5 class="copy">
+                    تمام حقوق مادی و معنوی این وبسایت متعلق به تیم محمدعلی موسی پور میباشد&copy;
+                 </h5>
+                 <button class="go-top" ><a href="#top" class="go-top__link"><i class="fa fa-arrow-up"></i></a></button>
+            </div>
+        </section>
+     </footer>
+     <script src="./articles.js"></script>
+</body>
+</html>
